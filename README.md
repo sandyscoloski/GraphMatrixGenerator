@@ -1,4 +1,4 @@
-# MatrixGenerator
+# GraphMatrixGenerator
 A Python Script to generate matrix for graphs of any range with random values, and another Python Script to create a structural for kruskal algorithm.
 
 1. The _**matrix_generator.py**_ script needs a argument via command line that indicate the size of squared matrix. The random values understand the range 0 to 100.
