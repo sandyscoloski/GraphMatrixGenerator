@@ -9,10 +9,10 @@ def matrix_gen(tam):
     for lin in range(0, tam):
         for col in range(0, tam):
             if(lin == col):
-                Mat[col][lin] = 0
+                Mat[lin][col] = 0
             elif(Mat[col][lin] != 0):
                 Mat[lin][col] = Mat[col][lin]
-            else:
+            elif(col > lin):
                 Mat[lin][col] = randint(0, 100)
             # print(f'{Mat[lin][col]}', end=' ')
             arquivo.write(f'{Mat[lin][col]} ')
